@@ -58,7 +58,7 @@ const ReputationPage = () => {
                                                         width={35}
                                                         height={35}
                                                     />
-                                                    <span>{fullName}</span>
+                                                    <span>{fullName.split(' ')[1] === 'undefined' ? fullName.split(' ')[0] : fullName}</span>
                                                 </div>
                                             </td>
                                             <td>{reputation}</td>
